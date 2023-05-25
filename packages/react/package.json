@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "types": "./index.d.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.tsx --format esm,cjs --dts",
     "dev": "tsup src/index.tsx --format esm,cjs --dts --watch",
@@ -24,6 +24,9 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@stitches/react": "^1.2.8"
+    "@radix-ui/react-avatar": "^1.0.2",
+    "@radix-ui/react-checkbox": "^1.0.3",
+    "@stitches/react": "^1.2.8",
+    "phosphor-react": "^1.4.1"
   }
 }
