@@ -8,6 +8,12 @@ export default {
   args: {
     children: 'Send',
   },
+  argTypes: {
+    onClick: {
+      action: 'click',
+    },
+  },
+  tags: ['autodocs'],
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}

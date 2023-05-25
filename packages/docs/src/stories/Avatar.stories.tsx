@@ -8,6 +8,7 @@ export default {
     src: 'https://github.com/diego3g.png',
     alt: 'Diego Fernandes',
   },
+  tags: ['autodocs'],
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
