@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/diego3g.png',
     alt: 'Diego Fernandes',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
   tags: ['autodocs'],
 } as Meta<AvatarProps>
 
