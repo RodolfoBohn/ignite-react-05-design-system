@@ -9,7 +9,7 @@ import {
   space,
 } from '@rodolfobohn-ignite-ui/tokens'
 
-export const { styled, css, createTheme, globalCss, keyframes } =
+export const { styled, css, createTheme, globalCss, keyframes, getCssText } =
   createStitches({
     themeMap: {
       ...defaultThemeMap,
