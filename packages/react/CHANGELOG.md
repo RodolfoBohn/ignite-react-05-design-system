@@ -1,5 +1,11 @@
 # @rodolfobohn-ignite-ui/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Adicionando componentes de toast e tooltip, e ajuste no layout do componente de input
+
 ## 2.1.0
 
 ### Minor Changes
